@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-29T20:40:27 EST" name="Default suite" finished-at="2021-12-29T20:40:30 EST" duration-ms="3534">
+    <groups>
+    </groups>
+    <test started-at="2021-12-29T20:40:27 EST" name="Default test" finished-at="2021-12-29T20:40:30 EST" duration-ms="3534">
+      <class name="com.packt.tests.googleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.packt.tests.googleTest@61d6015a]" started-at="2021-12-29T20:40:27 EST" name="setUp" finished-at="2021-12-29T20:40:29 EST" duration-ms="2062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="googleAutomationTest()[pri:0, instance:com.packt.tests.googleTest@61d6015a]" started-at="2021-12-29T20:40:29 EST" name="googleAutomationTest" finished-at="2021-12-29T20:40:30 EST" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleAutomationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.packt.tests.googleTest@61d6015a]" started-at="2021-12-29T20:40:30 EST" name="tearDown" finished-at="2021-12-29T20:40:30 EST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.googleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
